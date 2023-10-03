@@ -2,6 +2,7 @@ export const environment = {
   production: false,
   authorize_uri: 'http://localhost:9000/oauth2/authorize?',
   client_id: 'client',
+  //database value
   redirect_uri: 'http://127.0.0.1:4200/authorized',
   scope: 'openid profile',
   response_type: 'code',
