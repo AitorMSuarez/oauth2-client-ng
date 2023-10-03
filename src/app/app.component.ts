@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'oauth2-client-ng';
+  title = 'oauth2-client-angular';
 }

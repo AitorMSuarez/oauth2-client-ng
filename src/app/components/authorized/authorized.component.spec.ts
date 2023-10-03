@@ -6,10 +6,14 @@ describe('AuthorizedComponent', () => {
   let component: AuthorizedComponent;
   let fixture: ComponentFixture<AuthorizedComponent>;
 
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ AuthorizedComponent ]
+    })
+    .compileComponents();
+  });
+
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [AuthorizedComponent]
-    });
     fixture = TestBed.createComponent(AuthorizedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
