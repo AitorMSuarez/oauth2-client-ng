@@ -15,6 +15,9 @@ export const environment = {
   code_verifier: 'vaJQvOcb8RfWoZWFvpSLAQjUywZx2VUiG6cAZpr7MV7',
   token_endpoint: 'http://localhost:9000/oauth2/token',
   grant_type: 'authorization_code',
+  token_url: 'http://localhost:9000/oauth2/token',
+  // Microservicio ->  ng g s services/resource
+  resource_url: 'http://localhost:8080/resource/',
 };
 
 /*
