@@ -11,8 +11,11 @@ export const environment = {
   response_type: 'code',
   response_mode: 'form_post',
   code_challenge_method: 'S256',
-  code_challenge: 'meWMSrkRBnMbd5RRseIVwuFGFOU6xwHi0_LgQyCOd1A',
-  code_verifier: 'vaJQvOcb8RfWoZWFvpSLAQjUywZx2VUiG6cAZpr7MV7',
+  // Los generamos con la librería crypto-js pkce
+  // En el Menu
+  // code_challenge: 'meWMSrkRBnMbd5RRseIVwuFGFOU6xwHi0_LgQyCOd1A',
+  // code_verifier: 'vaJQvOcb8RfWoZWFvpSLAQjUywZx2VUiG6cAZpr7MV7',
+  secret_code_challenge: 'secret',
   token_endpoint: 'http://localhost:9000/oauth2/token',
   grant_type: 'authorization_code',
   token_url: 'http://localhost:9000/oauth2/token',
