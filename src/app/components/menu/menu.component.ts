@@ -43,7 +43,6 @@ export class MenuComponent implements OnInit {
   }
 
   onLogout(): void {
-    this.tokenService.clear();
     location.href = this.logout_url;
   }
 
